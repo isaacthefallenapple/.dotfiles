@@ -1,0 +1,25 @@
+[user]
+	email = "isaacthefallenapple@gmail.com"
+	name = "isaacthefallenapple"
+
+[core]
+	excludesFile = ~/.gitignore
+	editor = nvim
+
+[alias]
+	co = checkout
+	st = status
+	logadog = log --all --decorate --oneline --graph
+	unstage = restore --staged
+	amend = commit --amend --no-edit
+
+[gpg]
+	program = gpg
+[safe]
+	directory = /mnt/wr-cluster/hlr-ws2223
+	directory = /mnt/wr-cluster/uebung-09
+	directory = /mnt/wr-cluster/uebung-12
+[push]
+	default = current
+[init]
+	defaultBranch = main

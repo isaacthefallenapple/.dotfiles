@@ -1,0 +1,5 @@
+[container]
+disabled = true
+
+[zig]
+version_format = 'v${major}.${minor}'

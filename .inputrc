@@ -1,0 +1,12 @@
+$include /etc/inputrc
+
+set bell-style visible
+
+set completion-ignore-case On
+
+# M-/ to backwards delete last path segment
+"\e/": unix-filename-rubout
+"\C-[": character-search-backward
+"\C-]": character-search
+"\C-u": universal-argument
+
